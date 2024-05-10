@@ -26,7 +26,7 @@ begin
     begin
         binary_value := to_integer(signed(i_bin));
         if binary_value < 0 then
-            o_sign <= "0001";
+            o_sign <= "1010";
             decimal_value := -binary_value;
         else
             o_sign <= "0000";
