@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon May  6 08:05:06 2024
+# Process ID: 1072
+# Current directory: C:/Users/Jonathon.Watson/Downloads/ECE_281/ece281-lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7496 C:\Users\Jonathon.Watson\Downloads\ECE_281\ece281-lab5\basic_cpu.xpr
+# Log file: C:/Users/Jonathon.Watson/Downloads/ECE_281/ece281-lab5/vivado.log
+# Journal file: C:/Users/Jonathon.Watson/Downloads/ECE_281/ece281-lab5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Jonathon.Watson/Downloads/ECE_281/ece281-lab5/basic_cpu.xpr
+update_compile_order -fileset sources_1
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
